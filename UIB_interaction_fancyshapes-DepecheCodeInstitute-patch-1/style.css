@@ -1,0 +1,36 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-top: 10px;
+}
+
+/* coding starts right here */
+/* ########## task one ########## */
+section:nth-of-type(1) {
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+.task-one::before {
+    content: "Once upon the time.... ";
+    background-color: rgb(76, 0, 255);
+}
+
+.task-one::after {
+    content: " .... The end ";
+    background-color: rgb(76, 0, 255);
+}
+
+/* ########## task two ########## */
+.task-two img {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* ########## task three ########## */
+.task-three img {
+    margin: 70px;
+    transform: rotate(180deg);
+}
